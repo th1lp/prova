@@ -1,21 +1,38 @@
-header{
-    background-color: #F5F7FA;
+/* Reset de estilos para todos os elementos */
+* {
+    box-sizing: border-box;
 }
 
-.titulo{
+/* Estilos para o corpo do documento */
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #F5F7FA;
+    padding: 20px;
+}
+
+.titulo {
     text-align: right;
     font-size: 25px;
+    margin-right: 20px;
 }
 
 a img {
-    width: 25px;
-    height: 25px;
-    margin-bottom: 10px;
-    margin-left: 20px;
+    width: 2rem;
+    height: 2rem;
+    margin-bottom: 0.5rem;
+    margin-left: 1rem;
 }
 
 ul {
-    padding-top: 10px;
+    padding-top: 0.5rem;
+    list-style: none;
+    /* Remova os marcadores padrão da lista */
 }
 
 ul li {
@@ -23,45 +40,51 @@ ul li {
     margin-bottom: 20px;
 }
 
-.btn.btn-primary{
+.btn.btn-primary {
     background-color: #4CAF4F;
-    padding: 4px 2rem;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-top: 2px;
+    padding: 0.5rem 2rem;
     border-radius: 4px;
+    color: #FFFFFF;
+    /* Altera a cor do texto do botão para branco */
 }
 
-.card.mb-3.border-0.primeiro{
+.btn.btn-primary:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.card.mb-3.border-0.primeiro {
     background-color: #F5F7FA;
 }
 
-.card-body{
-    margin-left: 160px;
-    margin-top: 60px;
-    margin-bottom: 60px;
-    width: Fill (657px)px;
-    height: Hug (276px)px;
-    gap: 32px;
+.card-body {
+    margin: 4rem auto;
+    /* Centralize o card no meio da página */
+    max-width: 800px;
+    /* Defina uma largura máxima para evitar que o conteúdo se estique muito */
 }
 
-.card-title{
+.card-title {
     font-size: 64px;
-}.card-text.p{
+}
+
+.card-text.p,
+.card-text.s {
     width: 601px;
     height: 120px;
-}.card-text.s{
-    width: 601px;
-    height: 120px;
-}.card-text.t{
+}
+
+.card-text.t {
     width: 240px;
     height: 80px;
-}.card-text.l{
+}
+
+.card-text.l {
     width: 657px;
     height: 24px;
 }
 
-.card-title-2{
+.card-title-2 {
     font-size: 64px;
     color: #4CAF4F;
     width: 600px;
@@ -71,18 +94,20 @@ ul li {
 .custom-image {
     padding-top: 40px;
     margin-bottom: 120px;
-    width: 400px;
+    width: 80%;
     height: 200px;
+    display: block;
 }
 
-.nav-ponto{
+.nav-ponto {
     text-align: center;
 }
 
-.ponto.ativo{
+.ponto.ativo {
     background-color: #4CAF4F;
 }
-.ponto{
+
+.ponto {
     display: inline-block;
     width: 10px;
     height: 10px;
@@ -92,43 +117,138 @@ ul li {
     cursor: pointer;
 }
 
-.card-body-icon{
-    margin-left: 10px;
+/* Adiciona regra CSS para centralizar os textos dentro dos cards */
+.card-body-icon {
+    text-align: center; /* Centraliza o conteúdo horizontalmente */
 }
 
-.col-1{
+/* Modifica o tamanho da imagem */
+.card-img-top {
+    width: 100px; /* Defina o tamanho máximo desejado para a imagem */
+    height: 100px;
+    text-align: center;
+}
+
+.col-1 {
     width: 40px;
     height: 40px;
     margin-left: 20px;
     margin-right: 20px;
     border-radius: 8px 0px 0px 0px;
-}.img-logo {
-    width: 50px;
-}.img-logo-1{
-    margin-left: 10px;
+}
+
+.img-logo,
+.img-logo-1 {
     width: 50px;
 }
 
-.col-3{
-    padding-bottom: 40px;
-}
-
-.textos.s{
+.textos.s {
     text-align: center;
     margin-top: 40px;
     margin-bottom: 40px;
-}p{
+}
+
+p {
     font-size: 16px;
 }
 
-.card-img-top{
-    width: 5px;
-    height: 5px;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
+.card.mb-3.border-0.segundo {
+    background-color: hsl(0, 0%, 100%);
 }
 
-.card.mb-3.border-0.segundo{
-    background-color: hsl(0, 0%, 100%);
+.card.text-center.d-flex.justify-content-center.align-items-center {
+    background-color: #F5F7FA;
+    /* Altera a cor de fundo do card */
+}
+
+.card.mb-3.border-0.custom-card.custom-card {
+    background-color: #F5F7FA;
+}
+
+.card-title,
+.btn.btn-primary {
+    color: #FFFFFF;
+}
+
+.col-auto>* {
+    margin: 5px;
+}
+
+/* Estilos para o contêiner principal */
+.container {
+    width: 100%;
+    max-width: 800px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-color: #f1f1f1;
+}
+
+.text {
+    text-align: left;
+    margin-bottom: 80px;
+    margin-top: 80px;
+    margin-left: 200px;
+}
+
+.text h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.text h1.s{
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #4CAF4F;
+}
+
+.val {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+
+.stat {
+    display: flex;
+    align-items: center; /* Alinhar itens verticalmente */
+    margin-bottom: 10px;
+}
+
+.stat .name {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.stat .number {
+    display: block;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.stat img {
+    margin-right: 10px; /* Adicionar margem à direita das imagens */
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between; /* Distribuir o espaço entre os elementos */
+    margin-right: 200px;
+}
+
+.flex-container-column {
+    display: flex;
+    flex-direction: column;
+    margin-right: 80px; /* Aproximar os flex-container-column */
+}
+
+.section.text {
+    flex-basis: 45%;
+}
+
+.section.val {
+    margin-left: 20px; /* Ajustar a margem esquerda da section val */
 }
