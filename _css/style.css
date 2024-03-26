@@ -1,0 +1,134 @@
+header{
+    background-color: #F5F7FA;
+}
+
+.titulo{
+    text-align: right;
+    font-size: 25px;
+}
+
+a img {
+    width: 25px;
+    height: 25px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+ul {
+    padding-top: 10px;
+}
+
+ul li {
+    padding-right: 40px;
+    margin-bottom: 20px;
+}
+
+.btn.btn-primary{
+    background-color: #4CAF4F;
+    padding: 4px 2rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 2px;
+    border-radius: 4px;
+}
+
+.card.mb-3.border-0.primeiro{
+    background-color: #F5F7FA;
+}
+
+.card-body{
+    margin-left: 160px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: Fill (657px)px;
+    height: Hug (276px)px;
+    gap: 32px;
+}
+
+.card-title{
+    font-size: 64px;
+}.card-text.p{
+    width: 601px;
+    height: 120px;
+}.card-text.s{
+    width: 601px;
+    height: 120px;
+}.card-text.t{
+    width: 240px;
+    height: 80px;
+}.card-text.l{
+    width: 657px;
+    height: 24px;
+}
+
+.card-title-2{
+    font-size: 64px;
+    color: #4CAF4F;
+    width: 600px;
+    height: 80px;
+}
+
+.custom-image {
+    padding-top: 40px;
+    margin-bottom: 120px;
+    width: 400px;
+    height: 200px;
+}
+
+.nav-ponto{
+    text-align: center;
+}
+
+.ponto.ativo{
+    background-color: #4CAF4F;
+}
+.ponto{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #C8E6C9;
+    border-radius: 50%;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.card-body-icon{
+    margin-left: 10px;
+}
+
+.col-1{
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 8px 0px 0px 0px;
+}.img-logo {
+    width: 50px;
+}.img-logo-1{
+    margin-left: 10px;
+    width: 50px;
+}
+
+.col-3{
+    padding-bottom: 40px;
+}
+
+.textos.s{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}p{
+    font-size: 16px;
+}
+
+.card-img-top{
+    width: 5px;
+    height: 5px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card.mb-3.border-0.segundo{
+    background-color: hsl(0, 0%, 100%);
+}
