@@ -286,7 +286,7 @@ p {
     padding: 0 15px;
 }
 
-/* Estilos para o logotipo */
+
 .custom-logo {
     width: 100px;
     height: auto;
@@ -294,7 +294,7 @@ p {
 }
 
 .custom-footer {
-    background-color: #263238; /* Cor de fundo alterada */
+    background-color: #263238;
     padding: 30px 0;
 }
 
